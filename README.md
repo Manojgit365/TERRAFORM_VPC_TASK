@@ -1,11 +1,15 @@
-Terraform Reusable VPC Module
+
+# Terraform Reusable VPC Module
+
 This Terraform configuration creates a reusable AWS VPC module that provisions:
-1.A VPC
-2.Public Subnets
-3.Private Subnets
 
-Directory Structure
+- A VPC
+- Public Subnets
+- Private Subnets
 
+## Directory Structure
+
+```
 terraform_vpc_modules/
 ├── main.tf
 ├── variables.tf
@@ -16,17 +20,17 @@ terraform_vpc_modules/
 │       ├── main.tf
 │       ├── variables.tf
 │       └── outputs.tf
+```
 
-How to Use
+## How to Use
 
-1.Update terraform.tfvars with your custom values.
-2.Run the following commands:
+1. Update `terraform.tfvars` with your custom values.
+2. Run the following commands:
 
+```bash
 terraform init
 terraform plan
 terraform apply
+```
 
 This code follows Terraform best practices for modular infrastructure.
-#####
-
-
