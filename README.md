@@ -1,8 +1,8 @@
 Terraform Reusable VPC Module
 This Terraform configuration creates a reusable AWS VPC module that provisions:
-#A VPC
-#Public Subnets
-#Private Subnets
+1.A VPC
+2.Public Subnets
+3.Private Subnets
 
 Directory Structure
 
